@@ -1,0 +1,15 @@
+Secret Image:
+  random.png
+    512 x 512
+    Entropy: 7.99937650263293 bits
+    Chi-Squared: 226.590
+    
+  pureBlack.png
+    512 x 512
+    Entropy: 0.000 bits
+    
+  pureWhite.png
+    512 x 512
+    Entropy: 0.000 bits
+    
+Correlations using 1024 random pixels.

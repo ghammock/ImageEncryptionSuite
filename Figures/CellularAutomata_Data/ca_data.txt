@@ -1,0 +1,30 @@
+Cellular Automata Lenna
+
+Horizontal Correlations
+    Expected Value, µ(x): 125
+    Variance, V(x): 5.02E+03
+    Standard Deviation, s(x): 70.9
+    Covariance, C(x, y): -194
+    Correlation Coefficient, r(x, y): -0.038205
+
+Vertical Correlations
+    Expected Value, µ(x): 127
+    Variance, V(x): 5.35E+03
+    Standard Deviation, s(x):73.1
+    Covariance, C(x, y): -2.18
+    Correlation Coefficient, r(x, y): -0.00041718
+
+Histogram
+    Image Statistics
+    Width: 512 px
+    Height: 512 px
+    Total pixels: 262144
+    Average Luminance: 126
+    Standard Deviation: 71
+    Entropy: 7.98492885715792
+
+Chi-Squared (Uniform): 5450.837890625
+X2(Uniform) / X2(Max): 4.06913823810809E-05
+
+Chi-Squared (Lenna): 5048794.59325123
+X2(Lenna) / X2(Max): 0.0376900644414438

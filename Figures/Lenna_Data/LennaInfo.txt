@@ -1,0 +1,32 @@
+Lenna
+
+Horizontal Correlations
+    Expected Value, µ(x): 117
+    Variance, V(x): 2.35E+03
+    Standard Deviation, s(x): 48.5
+    Covariance, C(x, y): 2.31E+03
+    Correlation Coefficient, r(x, y): 0.96829
+
+Vertical Correlations
+    Expected Value, µ(x): 117
+    Variance, V(x): 2.39E+03
+    Standard Deviation, s(x):48.8
+    Covariance, C(x, y): 2.37E+03
+    Correlation Coefficient, r(x, y): 0.98616
+
+Histogram
+    Image Statistics
+    Width: 512 px
+    Height: 512 px
+    Total pixels: 262144
+    Average Luminance: 116
+    Standard Deviation: 49
+    Entropy: 7.49816463186283
+    Chi-Squared Value: 141069.04
+
+
+Chi-Squared (Uniform): 141069.04296875
+X2(Uniform) / X2(Max): 0.00105310311639379
+
+Chi-Squared (Lenna): 0
+X2(Lenna) / X2(Max): 0

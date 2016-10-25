@@ -1,0 +1,31 @@
+Fluid Dynamics Lenna - Random Secret Image
+
+Horizontal Correlations
+    Expected Value, µ(x): 119
+    Variance, V(x): 5.55E+03
+    Standard Deviation, s(x): 74.5
+    Covariance, C(x, y): 106
+    Correlation Coefficient, r(x, y): 0.019998
+
+Vertical Correlations
+    Expected Value, µ(x): 129
+    Variance, V(x): 5.12E+03
+    Standard Deviation, s(x):71.5
+    Covariance, C(x, y): -92.1
+    Correlation Coefficient, r(x, y): -0.01806
+
+Histogram
+    Image Statistics
+    Width: 512 px
+    Height: 512 px
+    Total pixels: 262144
+    Average Luminance: 127
+    Standard Deviation: 74
+    Entropy: 7.99923316337235
+    Chi-Squared Value: 279.99
+
+Chi-Squared (Uniform): 279.990234375
+X2(Uniform) / X2(Max): 2.09017217509201E-06
+
+Chi-Squared (Reference): 7623326.47779578
+X2(Reference) / X2(Max): 0.0569093594321218

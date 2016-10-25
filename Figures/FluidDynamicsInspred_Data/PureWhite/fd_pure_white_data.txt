@@ -1,0 +1,30 @@
+Fluid Dynamics Lenna - Pure White Secret Image
+
+Horizontal Correlations
+    Expected Value, µ(x): 127
+    Variance, V(x): 5.56E+03
+    Standard Deviation, s(x): 74.6
+    Covariance, C(x, y): -681
+    Correlation Coefficient, r(x, y): -0.13173
+
+Vertical Correlations
+    Expected Value, µ(x): 124
+    Variance, V(x): 4.83E+03
+    Standard Deviation, s(x):69.5
+    Covariance, C(x, y): 117
+    Correlation Coefficient, r(x, y): 0.024251
+
+Histogram
+    Image Statistics
+    Width: 512 px
+    Height: 512 px
+    Total pixels: 262144
+    Average Luminance: 124
+    Standard Deviation: 72
+    Entropy: 7.99323595635755
+
+Chi-Squared (Uniform): 2428.17578125
+X2(Uniform) / X2(Max): 1.8126723117791E-05
+
+Chi-Squared (Lenna): 5150044.77902417
+X2(Lenna) / X2(Max): 0.0384459133784536

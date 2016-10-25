@@ -1,0 +1,32 @@
+QR Code - Bio-Encrypted Image
+
+Horizontal Correlations (512px)
+    Expected Value, μ(x): 121
+    Variance, V(x): 5.68E+03
+    Standard Deviation, σ(x): 75.3
+    Covariance, C(x, y): 353
+    Correlation Coefficient, r(x, y): 0.064514
+
+
+Vertical Correlations (512px)
+    Expected Value, μ(x): 124
+    Variance, V(x): 5.41E+03
+    Standard Deviation, σ(x):73.6
+    Covariance, C(x, y): -303
+    Correlation Coefficient, r(x, y): -0.056731
+
+Histogram
+    Image Statistics
+    Width: 200 px
+    Height: 200 px
+    Total pixels: 40000
+    Average Luminance: 126
+    Standard Deviation: 74
+    Entropy: 7.98708672818015
+    Chi-Squared Value: 612.53
+
+Chi-Squared (Uniform): 612.531200000001
+X2(Uniform) / X2(Max): 7.69511557788945E-05
+
+Chi-Squared (Reference): 39332.6104914079
+X2(Reference) / X2(Max): 0.00494128272505124

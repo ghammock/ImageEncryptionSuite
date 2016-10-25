@@ -1,0 +1,32 @@
+QR Code - Cellular Automata Image
+
+Horizontal Correlations (512px)
+    Expected Value, μ(x): 129
+    Variance, V(x): 7.13E+03
+    Standard Deviation, σ(x): 84.5
+    Covariance, C(x, y): 315
+    Correlation Coefficient, r(x, y): 0.045472
+
+
+Vertical Correlations (512px)
+    Expected Value, μ(x): 130
+    Variance, V(x): 7.07E+03
+    Standard Deviation, σ(x):84.1
+    Covariance, C(x, y): -131
+    Correlation Coefficient, r(x, y): -0.018979
+
+Histogram
+    Image Statistics
+    Width: 200 px
+    Height: 200 px
+    Total pixels: 40000
+    Average Luminance: 129
+    Standard Deviation: 83
+    Entropy: 5.58421743906566
+    Chi-Squared Value: 234115.78
+
+Chi-Squared (Uniform): 234115.776
+X2(Uniform) / X2(Max): 0.0294115296482412
+
+Chi-Squared (Reference): 36520.1230027133
+X2(Reference) / X2(Max): 0.00458795515109464

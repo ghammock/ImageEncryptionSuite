@@ -1,0 +1,26 @@
+Uniform Histogram Image Data
+
+Horizontal Correlations
+    Expected Value, µ(x): 134
+    Variance, V(x): 5.32E+03
+    Standard Deviation, s(x): 72.9
+    Covariance, C(x, y): 5.32E+03
+    Correlation Coefficient, r(x, y): 1
+
+Vertical Correlations
+    Expected Value, µ(x): 126
+    Variance, V(x): 5.6E+03
+    Standard Deviation, s(x):74.9
+    Covariance, C(x, y): 220
+    Correlation Coefficient, r(x, y): 0.040358
+
+Histogram
+    Image Statistics
+    Width: 512 px
+    Height: 512 px
+    Total pixels: 262144
+    Average Luminance: 127
+    Standard Deviation: 74
+    Entropy: 8
+    Chi-Squared Value: 0.00
+    Index of Coincidence: 0.004

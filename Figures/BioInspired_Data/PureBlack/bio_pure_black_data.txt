@@ -1,0 +1,30 @@
+Bio-Inspired Lenna - Black Secret Image
+
+Horizontal Correlations
+    Expected Value, µ(x): 117
+    Variance, V(x): 2.5E+03
+    Standard Deviation, s(x): 50
+    Covariance, C(x, y): 632
+    Correlation Coefficient, r(x, y): 0.25905
+
+Vertical Correlations
+    Expected Value, µ(x): 114
+    Variance, V(x): 2.45E+03
+    Standard Deviation, s(x):49.5
+    Covariance, C(x, y): 808
+    Correlation Coefficient, r(x, y): 0.33431
+
+Histogram
+    Image Statistics
+    Width: 512 px
+    Height: 512 px
+    Total pixels: 262144
+    Average Luminance: 115
+    Standard Deviation: 49
+    Entropy: 7.49816463186283
+
+Chi-Squared (Uniform): 141069.04296875
+X2(Uniform) / X2(Max): 0.00105310311639379
+
+Chi-Squared (Lenna): 1492.33337524841
+X2(Lenna) / X2(Max): 1.11405088962055E-05
