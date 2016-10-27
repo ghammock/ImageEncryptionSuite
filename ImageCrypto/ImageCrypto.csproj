@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E845B7B0-5A88-4AC2-A5B5-559A55E6042B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ImageCrypto</RootNamespace>
+    <AssemblyName>ImageCrypto</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge">
+      <HintPath>ThirdParty\AForge.Net\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging">
+      <HintPath>ThirdParty\AForge.Net\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math">
+      <HintPath>ThirdParty\AForge.Net\AForge.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChartProperties.cs" />
+    <Compile Include="CorrelationDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CorrelationDisplay.Designer.cs">
+      <DependentUpon>CorrelationDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistogramDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistogramDisplay.Designer.cs">
+      <DependentUpon>HistogramDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageEncryption\BioInpired\BioInspiredKey.cs" />
+    <Compile Include="ImageEncryption\CellularAutomata\CellularAutomataEncryptor.cs" />
+    <Compile Include="ImageEncryption\CellularAutomata\CellularAutomataKey.cs" />
+    <Compile Include="ImageEncryption\FluidDynamicsInspired\FluidDynamicsEncryptor.cs" />
+    <Compile Include="ImageEncryption\FluidDynamicsInspired\FluidDynamicsKey.cs" />
+    <Compile Include="ImageEncryption\ImageEncryption.cs" />
+    <Compile Include="ImageFeaturesDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageFeaturesDisplay.Designer.cs">
+      <DependentUpon>ImageFeaturesDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageEncryption\BioInpired\BioInspiredEncryptor.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecretImageSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecretImageSelection.Designer.cs">
+      <DependentUpon>SecretImageSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpectrumDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpectrumDisplay.Designer.cs">
+      <DependentUpon>SpectrumDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThirdParty\MicroLibrary.cs" />
+    <Compile Include="ThirdParty\PictureBoxExtended.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="CorrelationDisplay.resx">
+      <DependentUpon>CorrelationDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistogramDisplay.resx">
+      <DependentUpon>HistogramDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageFeaturesDisplay.resx">
+      <DependentUpon>ImageFeaturesDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SecretImageSelection.resx">
+      <DependentUpon>SecretImageSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpectrumDisplay.resx">
+      <DependentUpon>SpectrumDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transparentCheckerboard.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

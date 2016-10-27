@@ -1,0 +1,26 @@
+C:\Users\1282859137C\Documents\Visual Studio\Projects\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.MainWindow.resources
+C:\Users\1282859137C\Documents\Visual Studio\Projects\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.Properties.Resources.resources
+C:\Users\1282859137C\Documents\Visual Studio\Projects\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.csproj.GenerateResource.Cache
+C:\Users\1282859137C\Documents\Visual Studio\Projects\ImageCrypto\ImageCrypto\bin\Debug\ImageCrypto.exe.config
+C:\Users\1282859137C\Documents\Visual Studio\Projects\ImageCrypto\ImageCrypto\bin\Debug\ImageCrypto.exe
+C:\Users\1282859137C\Documents\Visual Studio\Projects\ImageCrypto\ImageCrypto\bin\Debug\ImageCrypto.pdb
+C:\Users\1282859137C\Documents\Visual Studio\Projects\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.exe
+C:\Users\1282859137C\Documents\Visual Studio\Projects\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.pdb
+C:\Users\1282859137C\Documents\Visual Studio\Projects\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.csprojResolveAssemblyReference.cache
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.csprojResolveAssemblyReference.cache
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.CorrelationDisplay.resources
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.HistogramDisplay.resources
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.ImageFeaturesDisplay.resources
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.Properties.Resources.resources
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.SpectrumDisplay.resources
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.csproj.GenerateResource.Cache
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.MainWindow.resources
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\bin\Debug\ImageCrypto.exe.config
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\bin\Debug\ImageCrypto.exe
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\bin\Debug\ImageCrypto.pdb
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\bin\Debug\AForge.dll
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\bin\Debug\AForge.Imaging.dll
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\bin\Debug\AForge.Math.dll
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.exe
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.pdb
+C:\Users\archon\Desktop\ImageCrypto\ImageCrypto\obj\Debug\ImageCrypto.SecretImageSelection.resources
